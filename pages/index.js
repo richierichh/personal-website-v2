@@ -14,7 +14,7 @@ export default function Index() {
       <Head>
         <title> Richard Liao </title>
       </Head>
-      <ThemeProvider enableSystem={true} attribute="class">
+      <ThemeProvider attribute="class">
         <Navbar />
         <Home />
         <About/>
