@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
     const { systemTheme, theme, setTheme } = useTheme()
     const currentTheme = theme === "system" ? systemTheme : theme
-    const navbarColor = currentTheme === "dark" ? "bg-[#141414]" : "bg-white";
+    const navbarColor = currentTheme === "light" ? "bg-[#141414]" : "bg-white";
     const textColor = currentTheme === "dark" ? "text-[#EEF0F2]" : "text-black";
 
     return (
