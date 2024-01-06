@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif+JP:wght@500;600&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+html{ 
+  scroll-behavior: smooth;
+  font-family: lato;
+  background: #EEF0F2;
+}
+@layer base{ 
+  body { 
+    @apply font-[lato];
+  
+  }
+  li { 
+    @apply px-4;
+    @apply cursor-pointer; 
+  }
+}
+
+html.dark {
+  background-color: #141414;
+  color: white; 
+}
+
+html.light {
+  background-color: #EEF0F2;
+  color: black; 
+}
+
