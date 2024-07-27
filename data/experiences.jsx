@@ -7,10 +7,10 @@ import dayforce from '../assets/dayforce_logo.jpg';
 const experiences = [
   { 
   title: "Software Developer",
-  company: "Ceridian",
+  company: "Dayforce",
   date: "Jan 2024 - August 2024",
   tasks: [
-  "Working on the Dayforce Management Team as a full stack developer using React, C# and SQL"
+  "Optimized the codebase, fixed bugs and wrote test automation scripts for the scheduling app using React, C# and SQL"
   ],
   image: dayforce
   },
@@ -45,7 +45,7 @@ const experiences = [
     image: ontario
   },
   {
-    title: "Financial analyst",
+    title: "Analyst",
     company: "Markel Canada",
     date: "May 2021 - Sep 2021",
     tasks: [

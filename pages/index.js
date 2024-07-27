@@ -6,7 +6,8 @@ import Footer from '../components/Footer';
 import { ThemeProvider } from 'next-themes';
 import Projects from '../components/Projects';
 import About from '../components/About';
-import Resume from '../components/Resume'
+import Resume from '../components/Resume';
+import Skills from '../components/Skills';
 
 export default function Index() {
   return (
@@ -19,6 +20,7 @@ export default function Index() {
         <Home />
         <About/>
         <Experience/>
+        <Skills/>
         <Projects/>
         <Resume/>
         <Footer/>

@@ -14,7 +14,7 @@ const Resume = () => {
     src={resumeLink}
     title="Resume"
     style={{ minHeight: '100vh' }}
-  ></iframe>
+  />
   <a className="underline hover:text-blue-400 mt-4" href={resumeDownloadLink} title="Resume" >Download :)</a>
 </div>
 

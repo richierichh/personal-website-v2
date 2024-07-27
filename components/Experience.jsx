@@ -6,7 +6,7 @@ function JobExperience({ title, company, date, tasks, image }) {
   const imageSize = 200; 
 
   return (
-    <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden my-4">
+    <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden my-4 ease-in-out hover:-translate-y-2">
       <div className="md:flex md:items-center md:justify-center md:w-48 bg-white"> {/* Adjust width as needed */}
         <Image 
           src={image} 
