@@ -8,10 +8,12 @@ import Projects from '../components/Projects';
 import About from '../components/About';
 import Resume from '../components/Resume';
 import Skills from '../components/Skills';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Index() {
   return (
     <div >
+      <Analytics/>
       <Head>
         <title> Richard Liao </title>
       </Head>

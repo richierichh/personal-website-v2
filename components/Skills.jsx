@@ -1,11 +1,11 @@
 import React from 'react';
 import { FaJava, FaPython, FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaReact, FaGit, FaGithub, FaDatabase, FaFigma } from 'react-icons/fa';
-import { SiTailwindcss, SiExpress, SiMongodb, SiCsharp } from 'react-icons/si';
+import { SiTailwindcss, SiExpress, SiMongodb, SiCsharp, SiSelenium } from 'react-icons/si';
 
 const Skills = () => {
     return (
         <div className="pt-28 p-20">
-            <div id="skills" className="pt-28 flex flex-col justify-center items-center overflow-auto">
+            <div id="Skills" className="pt-28 flex flex-col justify-center items-center overflow-auto">
                 <h1 className="text-center font-bold text-4xl mb-8">
                     Skills
                     <hr className="w-10 h-1 mx-auto my-4 bg-gradient-to-r from-blue-200 to-cyan-200 rounded"></hr>
@@ -46,6 +46,10 @@ const Skills = () => {
                     <div className="flex flex-col items-center">
                         <SiExpress className="text-gray-700 text-4xl" />
                         <span className="mt-2 bg-gray-700 text-white px-4 py-2 rounded-full">Express.js</span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <SiSelenium className="text-gray-800 text-4xl" />
+                        <span className="mt-2 bg-gray-800 text-white px-4 py-2 rounded-full">Selenium</span>
                     </div>
                     <div className="flex flex-col items-center">
                         <SiMongodb className="text-orange-500 text-4xl" />

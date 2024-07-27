@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Resume = () => {
-    const resumeLink = 'https://drive.google.com/file/d/1V_SspGb5Jm6RTh245PIIsyBcuYe0sz9I/preview'; 
-    const resumeDownloadLink = 'https://drive.google.com/uc?export=download&id=1V_SspGb5Jm6RTh245PIIsyBcuYe0sz9I'; 
+    const resumeLink = 'https://drive.google.com/file/d/1WvvowcHMm5gDYav4yixWJbVfCyc6CmXc/preview'; 
+    const resumeDownloadLink = 'https://drive.google.com/uc?export=download&id=1WvvowcHgMm5gDYav4yixWJbVfCyc6CmXc'; 
     return (
 <div id="Resume"className="pt-28 p-20 flex flex-col justify-center items-center overflow-auto">
   <h1 className='text-center font-bold text-4xl mb-8 '>
