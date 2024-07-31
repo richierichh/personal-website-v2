@@ -17,7 +17,7 @@ function JobExperience({ title, company, date, tasks, image }) {
         />
       </div>
       <div className="p-4">
-        <h1 className="text-lg font-medium">{title}</h1>
+        <h1 className="text-lg font-medium text-gray-600">{title}</h1>
         <h2 className="text-md font-medium text-gray-600">{company}</h2>
         <h3 className="text-md text-gray-500">{date}</h3>
         <ul className="list-disc pl-5 text-gray-700">
