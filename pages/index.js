@@ -9,10 +9,12 @@ import About from '../components/About';
 import Resume from '../components/Resume';
 import Skills from '../components/Skills';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next" 
 
 export default function Index() {
   return (
     <div >
+      <SpeedInsights/>
       <Analytics/>
       <Head>
         <title> Richard Liao </title>
