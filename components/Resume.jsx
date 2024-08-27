@@ -10,7 +10,7 @@ const Resume = () => {
     <hr className="w-10 h-1 mx-auto my-4 bg-gradient-to-r from-blue-200 to-cyan-200 rounded"></hr>
   </h1>
   <iframe 
-    className="w-full md:w-3/4 xl:w-1/2 h-[825px] md:h-[650px] xl:h-[825px]"
+    className="w-full md:w-3/4 lg:w-1/2 lg:h-[825px] xl:w-1/2 h-[825px] md:h-[650px] xl:h-[825px]"
     src={resumeLink}
     title="Resume"
     style={{ minHeight: '100vh' }}

@@ -1,8 +1,8 @@
 const projectItems = [
     {
-      name: "MERN Full Stack Bug Ticket List",
+      name: "Pantry Pal",
       description:
-        "A full stack bug ticket tracker that allows users to create and delete tasks built with React, Node.js, Express, and MongoDB.",
+        "",
       image: "/todolist.png",
       github: "https://github.com/richierichh/MernToDo",
       link: "https://richardsmerntodolist.netlify.app/#",

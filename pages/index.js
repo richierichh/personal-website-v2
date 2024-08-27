@@ -25,7 +25,6 @@ export default function Index() {
         <About/>
         <Experience/>
         <Skills/>
-        <Projects/>
         <Resume/>
         <Footer/>
       </ThemeProvider>

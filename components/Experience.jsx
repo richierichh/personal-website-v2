@@ -7,7 +7,7 @@ function JobExperience({ title, company, date, tasks, image }) {
 
   return (
     <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden my-4 ease-in-out hover:-translate-y-2">
-      <div className="md:flex md:items-center md:justify-center md:w-48 bg-white"> {/* Adjust width as needed */}
+      <div className="flex items-center justify-center w-full md:w-48 bg-white"> {/* Center image on mobile and adjust width as needed for larger screens */}
         <Image 
           src={image} 
           alt={`${company} logo`} 
@@ -35,7 +35,6 @@ function Experience() {
         Experience
         <hr className="w-10 h-1 mx-auto my-4 bg-gradient-to-r from-blue-200 to-cyan-200 rounded" />
       </h1>
-      {/* Grid layout for 2x2 cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {experiences.map((experience, index) => (
           <JobExperience key={index} {...experience} />
