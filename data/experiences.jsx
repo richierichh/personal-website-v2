@@ -10,7 +10,7 @@ const experiences = [
   company: "Dayforce",
   date: "Jan 2024 - August 2024",
   tasks: [
-  "Optimized the codebase, fixed bugs and wrote test automation scripts for the scheduling app using React, C# and SQL"
+  "Optimized the codebase, fixed bugs and converted test automation scripts for the scheduling app using React, C# and SQL"
   ],
   image: dayforce
   },
