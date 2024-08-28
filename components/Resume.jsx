@@ -1,24 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Resume = () => {
-    const resumeLink = 'https://drive.google.com/file/d/1WvvowcHMm5gDYav4yixWJbVfCyc6CmXc/preview'; 
-    const resumeDownloadLink = 'https://drive.google.com/uc?export=download&id=1WvvowcHMm5gDYav4yixWJbVfCyc6CmXc'; 
+  const resumeLink = 'https://drive.google.com/file/d/1EB76jBqZwLq1jWZji0GaZnWltl8L4Zsh/preview';
+    const resumeDownloadLink = 'https://drive.google.com/uc?export=download&id=1EB76jBqZwLq1jWZji0GaZnWltl8L4Zsh';
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
-<div id="Resume"className="pt-28 p-20 flex flex-col justify-center items-center overflow-auto">
-  <h1 className='text-center font-bold text-4xl mb-8 '>
-    Resume
-    <hr className="w-10 h-1 mx-auto my-4 bg-gradient-to-r from-blue-200 to-cyan-200 rounded"></hr>
-  </h1>
-  <iframe 
-    className=""
-    src={resumeLink}
-    title="Resume"
-    style={{ minHeight: '100vh' , minWidth:'80vh'}}
-  />
-  <a className="underline hover:text-blue-400 mt-4" href={resumeDownloadLink} title="Resume" >Download :)</a>
-</div>
-
-
+        <div id="Resume" className="pt-28 p-20 flex flex-col justify-center items-center overflow-auto">
+            <h1 className='text-center font-bold text-4xl mb-8'>
+                Resume
+                <hr className="w-10 h-1 mx-auto my-4 bg-gradient-to-r from-blue-200 to-cyan-200 rounded"></hr>
+            </h1>
+            {isMobile ? (
+                <a className="underline hover:text-blue-400 mt-4" href={resumeLink} target="_blank" rel="noopener noreferrer">
+                    View Resume
+                </a>
+            ) : (
+                <iframe
+                    src={resumeLink}
+                    title="Resume"
+                    style={{ minHeight: '100vh', minWidth: '80vh' }}
+                />
+            )}
+            <a className="underline hover:text-blue-400 mt-4" href={resumeDownloadLink} title="Download Resume" >
+                Download :)
+            </a>
+        </div>
     );
 };
 
