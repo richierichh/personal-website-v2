@@ -1,19 +1,24 @@
+'use client';
 import React, { useState, useEffect } from 'react';
 
 const Resume = () => {
   const resumeLink = 'https://drive.google.com/file/d/1EB76jBqZwLq1jWZji0GaZnWltl8L4Zsh/preview';
     const resumeDownloadLink = 'https://drive.google.com/uc?export=download&id=1EB76jBqZwLq1jWZji0GaZnWltl8L4Zsh';
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-        const handleResize = () => {
+        // Check if window is defined to ensure it's running on the client side
+        if (typeof window !== 'undefined') {
+          const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
-        };
+          };
+    
 
         window.addEventListener('resize', handleResize);
         return () => {
             window.removeEventListener('resize', handleResize);
         };
+    }
     }, []);
 
     return (
