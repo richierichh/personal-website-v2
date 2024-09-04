@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 
 const Resume = () => {
-  const resumeLink = 'https://drive.google.com/file/d/1EB76jBqZwLq1jWZji0GaZnWltl8L4Zsh/preview';
-    const resumeDownloadLink = 'https://drive.google.com/uc?export=download&id=1EB76jBqZwLq1jWZji0GaZnWltl8L4Zsh';
+  const resumeLink = 'https://drive.google.com/file/d/1lxOErRB6-sKuZutfwrMpEvCDE7K3ba3-/preview';
+    const resumeDownloadLink = 'https://drive.google.com/uc?export=download&id=1lxOErRB6-sKuZutfwrMpEvCDE7K3ba3-';
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
