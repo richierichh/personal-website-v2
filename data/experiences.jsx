@@ -3,8 +3,29 @@ import ontario from '../assets/ontario.jpeg';
 import markel from '../assets/markel.jpeg';
 import cibc from '../assets/cibc.jpeg';
 import dayforce from '../assets/dayforce_logo.jpg';
+import citamarketplace from '../assets/cita_marketplace_logo.jpeg';
+import wilfridlaurier from '../assets/wilfrid_laurier_logo.png';
 
 const experiences = [
+  { 
+    title: "Machine Learning Researcher",
+    company: "Wilfrid Laurier University",
+    date: "Jan 2025 - Present",
+    tasks: [
+      " Working on a LLM project with Sukhjit Singh Sehra"
+    ],
+    image: wilfridlaurier
+  },
+  { 
+    title: "Product Manager",
+    company: "Cita Marketplace",
+    date: "September 2024 - December 2024",
+    tasks: [
+    "Led end-to-end feature prioritization and backlog management, accelerating product delivery cycles by 20%",
+    "Developed a new feature to allow users to create and manage their own product listings, increasing user engagement by 15%",
+    ],
+    image: citamarketplace
+    },
   { 
   title: "Software Developer",
   company: "Dayforce",

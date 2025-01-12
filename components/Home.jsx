@@ -11,7 +11,7 @@ const Home = () => {
       <div className='text-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-3xl '>
           <p className='font-lato text-4xl sm:text-5xl md:text-6xl lg:text-7xl pb-4'>Hello 👋, I&apos;m</p>
           <p className='font-lato text-xl sm:text-4xl md:text-6xl lg:text-8xl font-bold bg-gradient-to-r from-blue-300 to-red-400 bg-clip-text text-transparent'>Richard Liao.</p>
-          <p className='font-lato text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold'>Software Engineer</p>
+          <p className='font-lato text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold'>Software Engineer / Product Manager</p>
           <p className ='font-lato text-xl sm:text-xl md:text-xl font-bold pt-4'>Computer Science @Wilfrid Laurier University</p>
 
         <ul className="flex justify-center items-center mt-6"> {/* Added space between icons */}
