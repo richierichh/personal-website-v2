@@ -28,7 +28,7 @@ const Home = () => {
       </ul>
           <div className="pt-10"> 
             {/* <a href="Richard-Liao-Resume.pdf" download className="bg-blue-500 py-3 px-6 rounded-md mr-4 hover:bg-blue-600 transition duration-300">Resume</a> */}
-            <a href="mailto:richardliao2002@gmail.com" className="  py-3 px-6 rounded-2xl bg-blue-300 hover:bg-blue-500 transition duration-300">Contact Me</a>
+            <a href="mailto:liaorichard221@gmail.com" className="  py-3 px-6 rounded-2xl bg-blue-300 hover:bg-blue-500 transition duration-300">Contact Me</a>
             <ul className="flex justify-center items-center space-x-4 mb-4"/> {/* Added space between icons */}
           </div>
           {/* <HiArrowDown className="flex flex-row justify-center animate-bounce" size={35}/> */}

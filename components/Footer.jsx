@@ -17,7 +17,7 @@ function footer() {
           </a>
         </li>
         <li>
-          <a href="mailto:liao3480@mylaurier.ca">
+          <a href="mailto:liaorichard221@gmail.com">
             <HiOutlineMail className='  hover:fill-[#6F8695]' size={30} />
           </a>
         </li>
