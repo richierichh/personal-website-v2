@@ -27,7 +27,7 @@ const experiences = [
     image: citamarketplace
     },
   { 
-  title: "Software Developer",
+  title: "Software Engineer",
   company: "Dayforce",
   date: "Jan 2024 - August 2024",
   tasks: [
@@ -36,7 +36,7 @@ const experiences = [
   image: dayforce
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company: "CIBC Capital Markets",
     date: "Sep 2023 - Dec 2023",
     tasks: [
@@ -46,7 +46,7 @@ const experiences = [
     image: cibc
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company: "Civiconnect",
     date: "Jan 2023 - Apr 2023",
     tasks: [
@@ -56,7 +56,7 @@ const experiences = [
     image: civiconnect
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company: "Ministry of Public and Business Service Delivery",
     date: "May 2022 - Aug 2022",
     tasks: [
